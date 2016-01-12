@@ -1,0 +1,250 @@
+.header{
+   text-align: center;
+    background:grey;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+}
+body{
+    font-family: sans-serif;
+}
+.page{
+    width: 96vw;
+    margin: 0 auto;
+}
+.mainbox{
+    width: 20vw;
+    background-color: lightblue;
+    text-align: center;
+    float: left;
+    min-height: 92vh;
+    margin-right: 4vw;
+   margin-top: 2vh;
+}
+
+.description{
+    padding: 0 1vw 2vw 1vw;
+}
+h2{
+    font-weight: bold;
+    padding-top: 31vh;
+    color: white;
+    
+}
+p{
+    text-align: left;
+    font-size: 0.9em;
+    color: black;
+}
+
+#Geraldine{
+    position: relative;
+    height: 30vh;
+    margin-top: 3vh;
+    width: 15vw;
+    margin-right: 2vw;
+    float: left;
+    margin-left: 2.5vw;
+    border-radius: 50%;
+    background: url(images/team/geraldine.png) 50% no-repeat;
+    background-size: 99%;
+}
+#Jae{
+    position: relative;
+    height: 30vh;
+    margin-top: 3vh;
+    width: 15vw;
+    margin-right: 3vw;
+    float: right;
+    border-radius: 50%;
+    background: url(images/team/jae.jpg) 30% 20% no-repeat;
+    background-size: 180%;
+}
+#Staci{
+    position: relative;
+    height: 30vh;
+    margin-top: 3vh;
+    width: 15vw;
+    margin-right: 2vw;
+    float: right;
+    border-radius: 50%;
+    background: url(images/team/staci.jpg) 30% 0% no-repeat;
+    background-size: 130%;
+}
+#Lousia{
+     position: relative;
+    height: 30vh;
+    margin-top: 3vh;
+    width: 15vw;
+    margin-right: 2vw;
+    float: right;
+    border-radius: 50%;
+    background: url(images/team/lousia.jpg) 50% 20% no-repeat;
+    background-size: 150%;
+}
+#Yan{
+       position: relative;
+    height: 30vh;
+    margin-top: 3vh;
+    width: 15vw;
+    margin-right: 2vw;
+    float: right;
+    border-radius: 50%;
+    background: url(images/team/Yan%20Yu.jpg) 50% 20% no-repeat;
+    background-size: 150%; 
+}
+#Andy{
+    position: relative;
+    height: 30vh;
+    margin-top: 3vh;
+    width: 15vw;
+    margin-right: 2vw;
+    float: right;
+    border-radius: 50%;
+    background: url(images/team/andy.png) 80% 20% no-repeat;
+    
+    background-size: 140%; 
+}
+#Swap{
+    position: relative;
+    height: 30vh;
+    margin-top: 3vh;
+    width: 15vw;
+    margin-right: 2vw;
+    float: right;
+    border-radius: 50%;
+    background: url(images/team/swap.jpg) 10% 20% no-repeat;
+    background-size: 140%; 
+}
+#Tiff{
+    position: relative;
+    height: 30vh;
+    margin-top: 3vh;
+    width: 15vw;
+    margin-right: 2vw;
+    float: right;
+    border-radius: 50%;
+    background: url(images/team/tiff.png) 10% 20% no-repeat;
+    background-size: 140%; 
+}
+#Ian{
+    position: relative;
+    height: 30vh;
+    margin-top: 3vh;
+    width: 15vw;
+    margin-right: 2vw;
+    float: right;
+    border-radius: 50%;
+    background: url(images/team/ian.png) 50% 20% no-repeat;
+    background-size: 140%; 
+}
+#Pete{
+    position: relative;
+    height: 30vh;
+    margin-top: 3vh;
+    width: 15vw;
+    margin-right: 2vw;
+    float: right;
+    border-radius: 50%;
+    background: url(images/team/pete.jpg) 60% 90% no-repeat;
+    background-size: 150%; 
+}
+#Taylor{
+    position: relative;
+    height: 30vh;
+    margin-top: 3vh;
+    width: 15vw;
+    margin-right: 2vw;
+    float: right;
+    border-radius: 50%;
+    background: url(images/team/taylor.jpg) 60% 40% no-repeat;
+    background-size: 140%; 
+}
+#Cehnyu{
+    position: relative;
+    height: 30vh;
+    margin-top: 3vh;
+    width: 15vw;
+    margin-right: 2vw;
+    float: right;
+    border-radius: 50%;
+    background: url(images/team/chenyu.jpg) 50% 20% no-repeat;
+    background-size: 140%; 
+}
+#Zin{
+    position: relative;
+    height: 30vh;
+    margin-top: 3vh;
+    width: 15vw;
+    margin-right: 2vw;
+    float: right;
+    border-radius: 50%;
+    background: url(images/team/Zin.png) 50% 20% no-repeat;
+    background-size: 140%; 
+}
+#Thomas{
+    position: relative;
+    height: 30vh;
+    margin-top: 3vh;
+    width: 15vw;
+    margin-right: 2vw;
+    float: right;
+    border-radius: 50%;
+    background: url(images/team/thomas.jpg) 50% 40% no-repeat;
+    background-size: 180%; 
+}
+#footerbar{
+    background: #F2F2F2;
+    width: 100%;
+    height: auto;
+}
+
+.footerlist{
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;
+}
+.footerheading{
+    color: #333333;
+}
+.footerlist li{
+    list-style: none;
+    float:left;
+    padding-right: 15px;
+}
+.footerlist a{
+    text-decoration: none;
+    color: #666666;
+    font-size: 0.5em;
+}
+#facebookIcon{
+    float: right;
+    padding-top: 20px;
+}
+#twitterIcon{
+    float: right;
+    margin-top: 20px;
+}
+#instagramIcon{
+    float: right;
+    margin-top: 20px;
+}
+
+h6{
+    color:grey;
+    float: left;
+    margin-left: 25vw;
+    margin-top: -4vh;
+
+}
+.fixedwidth{
+    width: 70vw;
+    margin: 0 auto;
+}
+.break{
+    clear: both;
+}
