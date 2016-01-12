@@ -1,0 +1,406 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0 0 20px;
+    font-style: normal;
+    font-family: sans-serif;
+    color: white;
+}
+h1{
+    font-family: sans-serif;
+    font-size-adjust: 0.40;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.6em;
+    margin-top: 27vh;
+    margin-bottom: 2vh;
+}
+.center{
+    font-size: 2.5em;
+    padding: 80px 0 0 0;
+    text-align: center;
+}
+#intro{
+    background: url(images/everything.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+    background-position: 
+    color: white;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+#intro p{
+   margin-top: vh;
+    font-size: 0.5em;
+}
+#business{
+    background: url(images/tie.jpg) 50% 0 no-repeat fixed;
+    background-size: ;
+    background-position: left;
+    color: black;
+    height: 130vh;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+#purchase{
+    background: url(images/pouchrepeat.png) 50% 0 repeat fixed;
+    background-size: cover;
+    color: white;
+    height: 120vh;
+    margin: 0 auto;
+    padding: 0;
+    background-size: 10%;
+    width: 100%;
+    
+}
+#us{
+     background: url(images/ent.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+    color: white;
+    height: 120vh;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+#geraldine{
+    padding: 0;
+    margin: 0;
+}
+#purchase h2{
+    
+} 
+#business h2{
+}
+.float-right{
+    float: right;
+    margin: 0 20px 0 0;
+}
+.float-left{
+    float: left;
+    margin 0 0 0 20px;
+}
+h2{
+    font-family: sans-serif;
+    font-size-adjust: 0.531;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+#about{
+    background: url(images/abstract.png) 50% 0 no-repeat fixed;
+    background-size: cover;
+    color: white;
+    height: 150vh;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+
+
+#about .bg{
+	background: url(images/pouch.png) 40% 50% no-repeat fixed;
+	height: 150vh;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 70.3vw;
+	z-index:2 ;
+    background-size: 10%;
+    
+}
+
+.fixedwidth{
+    width: 70vw;
+    margin: 0 auto;
+}
+
+#picture{
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    background: 
+}
+
+#topbar{
+    border-bottom: 2px solid lightblue;
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+    background: white
+        
+}
+#topbar img{
+    margin: 0;
+    padding: 0;
+}
+.story{
+	margin: 0 auto;
+	min-width: 76.6;
+	overflow: auto;
+	width: 76.6vw;
+    height: auto;
+}
+#images{
+    width: 100%;
+    margin: 0 auto;
+    min-width: 980px;
+    width: 980px;
+    height: 100vh;
+}
+.story .float-left, .story .float-right{
+    padding: 100px 0 0 0;
+    position: relative;
+    width: 350px;
+}
+.story .center{
+    padding: 100px 0 0 0;
+    position: relative;
+    width: 75vw;
+}
+#footerbar{
+    background: #F2F2F2;
+    width: 100%;
+    height: auto;
+}
+
+.footerheading{
+    color: #333333;
+}
+.footerlist a{
+    text-decoration: none;
+    color: #666666;
+    font-size: 0.5em;
+}
+#facebookIcon{
+    float: right;
+    padding-top: 20px;
+}
+#twitterIcon{
+    float: right;
+    margin-top: 20px;
+}
+#instagramIcon{
+    float: right;
+    margin-top: 20px;
+}
+#americanFlag{
+    float: left;
+    padding-top: 4.2vh;}
+h3{
+    float: left;
+    padding-top: 1.6vh;
+    padding-left: 1vw;
+    color: grey;
+}
+h6{
+    margin-top: 5vh;
+    color:grey;
+    float: left;
+    margin-left: 16vw;
+
+}
+@media screen and (max-width: 640px){
+    .story{
+       min-width: 300px; 
+        width: 500px;
+        margin-left: 10vw;
+        
+    }
+    .story .center{
+        padding-top: 2vh;
+    }
+    #about .bg{
+	background: url(images/pouch.png) 40% 50% no-repeat fixed;
+	height: 150vh;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 70.3vw;
+	z-index:2 ;
+    background-size: 18%;
+        -webkit-transform: translateX(-14vw);
+    
+}
+    h3{
+   
+        visibility: hidden;
+}
+    #americanFlag{
+        visibility: hidden
+    }
+    #facebookIcon{
+    float: left;
+    padding-top: 20px;
+        margin-left: 12vw;
+}
+#twitterIcon{
+    float: left;
+    margin-top: 20px;
+}
+#instagramIcon{
+    float: left;
+    margin-top: 20px;
+}
+h6{
+    margin-top: 5vh;
+    color:grey;
+    float: left;
+    margin-left: -80vw;
+
+}
+    
+  @media screen and (max-width: 375px){
+h1{
+          font-size: 0.8em;
+          padding-top: 5vh;
+          width: 95.3vw;
+          margin-right: 0;
+      }
+#intro p{
+          font-size: 0.4em !important;
+      }
+.story{ 
+        width: 19vw;
+        height: auto;
+          overflow-y: visible;
+          overflow-x: visible;
+         margin: 0;
+    margin-left: 0vw;
+    }
+h2{
+          font-size: 2.7em;
+          width: 90vw;
+      }
+p{
+          font-size: 1.5em;
+          width: 95.3vw;
+          margin: 0;
+      }
+.story .center{
+        padding-top: 2vh;
+    }
+.story .float-left, .story .float-right{
+    position: relative;
+        
+}
+.story .float-right p{
+          font-size: 1.2em;
+          width: 90vw;
+          margin-top: 4vh;
+      }
+.story .float-right{
+          margin-right: -17vw;
+      }
+.story .float-left{
+          margin-left: 2vw !important;
+      }
+      
+.story .float-left p{
+          font-size: 1.2em;
+          width: 90vw;
+      }
+    
+.fixedwidth{
+          margin: 0;
+      }
+#about .bg{
+	background: url(images/pouch.png) 40% 50% no-repeat;
+	padding: 0;
+	position: absolute;
+	width: 70.3vw;
+	z-index: 0;
+    background-size: 40%;
+       -webkit-transform: translateX(16vw);
+}
+
+h3{
+   
+        visibility: hidden;
+}
+#americanFlag{
+        visibility: hidden
+    }
+h6{
+   width: 93vw;
+    text-align: center;
+    margin-left: 0.9vw;
+    margin-top: -8vh;
+}  
+#footerbar{
+   width: 
+}
+
+#facebookIcon{
+  margin-left:27vw;
+}
+#twitterIcon{
+    margin-left: 
+}
+#instagramIcon{
+    margin-right: 0;
+}      
+#business{
+    background: url(images/tie.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+    color: black;
+    height: 130vh;
+    margin: 0;
+    padding: 0;
+    width: 95.3vw;
+}
+#purchase{
+    background: url(images/pouchrepeat.png) 50% 0 repeat fixed;
+    background-size: cover;
+    color: white;
+    height: 120vh;
+    margin: 0;
+    padding: 0;
+    background-size: 10%;
+    width: 95.3vw;
+    
+}
+#us{
+     background: url(images/ent.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+    color: white;
+    height: 120vh;
+   margin: 0;
+    padding: 0;
+    width: 95.3vw;;
+}
+    #intro{
+    background: url(images/everything.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 95.3vw;
+}
+    #about{
+    background: url(images/abstract.png) 50% 0 no-repeat fixed;
+    background-size: cover;
+    color: white;
+    height: 150vh;
+   
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 95.3vw;
+}
+      #topbar{
+          width: 95.3vw;
+          position: relative;
+      }
+      body{
+          width: 95vw !important;
+      }
+    
+}
