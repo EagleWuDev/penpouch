@@ -9,6 +9,10 @@ p{
     font-family: sans-serif;
     color: white;
 }
+#email a{
+    text-decoration: none;
+    color: blue;
+}
 h1{
     font-family: sans-serif;
     font-size-adjust: 0.40;
@@ -17,6 +21,7 @@ h1{
     font-size: 1.6em;
     margin-top: 27vh;
     margin-bottom: 2vh;
+    color: white;
 }
 .center{
     font-size: 2.5em;
@@ -33,13 +38,52 @@ h1{
     padding: 0;
     width: 100%;
 }
+#menuoptions{
+    list-style: none;
+    display: none;
+    padding-top: 0;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    width: auto;
+    text-align: right;
+}
+#topbar ul{
+    text-align: right;
+}
+#topbar button{
+    text-decoration: none;
+    font-style: none;
+    font-family: sans-serif;
+    color: black;
+    background:none;
+    width:16vw;
+    border: none;
+    position: relative;
+    padding-top: 1vh;
+    margin-top: 2.5vh !important;
+    margin-right: 1vw;
+    text-align: left;
+}
+#contactButton{
+    margin-bottom: 2vh;
+}
+#menu{
+    float: right;
+    color: white;
+    padding-top: 0vh !important;
+    margin-top: 2.5vh !important;
+    background: none;
+    border: none;
+    font-size: 1.3em !important;
+}
 #intro p{
    margin-top: vh;
     font-size: 0.5em;
 }
 #business{
     background: url(images/tie.jpg) 50% 0 no-repeat fixed;
-    background-size: ;
+    background-size: cover;
     background-position: left;
     color: black;
     height: 130vh;
@@ -55,8 +99,62 @@ h1{
     margin: 0 auto;
     padding: 0;
     background-size: 10%;
-    width: 100%;
+    width: 100%
     
+}
+.paypal_btn{
+    display: block;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: orange;
+    text-align: right;
+    padding-right: 0.8vw;
+    padding-left: 2.3vw;
+    padding-top: 0.8vh;
+    padding-bottom: 0.8vh;
+    margin: 0;
+    background-image: url(images/marker20.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: left;
+    border: 1px solid orange;
+    border-radius: 7%;
+    cursor: pointer;
+    outline: none;
+}
+._btn a{
+    text-decoration: none;
+    color: orange;
+}
+._btn:hover{
+    color: orange;
+    background-color: white;
+}
+._btn{
+    display: block;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: orange;
+    text-align: right;
+    padding-right: 0.8vw;
+    padding-left: 2.3vw;
+    padding-top: 0.8vh;
+    padding-bottom: 0.8vh;
+    margin: 0;
+    background-image: url(images/marker20.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: left;
+    border: 1px solid orange;
+    border-radius: 7%;
+    cursor: pointer;
+    outline: none;
+}
+.paypal_btn:hover{
+    color: orange;
+    background-color: white;
 }
 #us{
      background: url(images/ent.jpg) 50% 0 no-repeat fixed;
@@ -138,6 +236,7 @@ h2{
 }
 #topbar img{
     margin: 0;
+    margin-top: 1vh;
     padding: 0;
 }
 .story{
@@ -203,8 +302,12 @@ h6{
     margin-top: 5vh;
     color:grey;
     float: left;
-    margin-left: 16vw;
-
+    margin-left: 10vw;
+}
+#email{
+    color: orange;
+    font-weight: 700;
+    font-size: 1.3em;
 }
 @media screen and (max-width: 640px){
     .story{
@@ -238,23 +341,29 @@ h6{
     #facebookIcon{
     float: left;
     padding-top: 20px;
-        margin-left: 12vw;
+        margin-left: 40vw;
 }
 #twitterIcon{
     float: left;
     margin-top: 20px;
+    margin-left: 1vw;
 }
 #instagramIcon{
     float: left;
     margin-top: 20px;
+    margin-left: 1vw;
 }
 h6{
-    margin-top: 5vh;
+    margin-top: -16vh;
     color:grey;
     float: left;
-    margin-left: -80vw;
+    margin-left: -12vw;
+    width: 48vw;
 
 }
+    .paypal_btn{
+        padding-left: 1vw;
+    }
     
   @media screen and (max-width: 375px){
 h1{
@@ -316,8 +425,11 @@ p{
 	position: absolute;
 	width: 70.3vw;
 	z-index: 0;
-    background-size: 40%;
-       -webkit-transform: translateX(16vw);
+    height:150vh;
+    margin-top: 120vh;
+    background-size: 70%;
+    margin-left: 30vw;
+    
 }
 
 h3{
@@ -347,60 +459,67 @@ h6{
     margin-right: 0;
 }      
 #business{
-    background: url(images/tie.jpg) 50% 0 no-repeat fixed;
+    background: url(images/tie.jpg) 50% 0 no-repeat;
     background-size: cover;
     color: black;
     height: 130vh;
     margin: 0;
     padding: 0;
-    width: 95.3vw;
+    width: 99.3vw;
 }
 #purchase{
-    background: url(images/pouchrepeat.png) 50% 0 repeat fixed;
+    background: url(images/pouchrepeat.png) 50% 0 repeat;
     background-size: cover;
     color: white;
     height: 120vh;
     margin: 0;
     padding: 0;
     background-size: 10%;
-    width: 95.3vw;
+    width: 99.3vw;
     
 }
 #us{
-     background: url(images/ent.jpg) 50% 0 no-repeat fixed;
+     background: url(images/ent.jpg) 50% 0 no-repeat;
     background-size: cover;
     color: white;
     height: 120vh;
    margin: 0;
     padding: 0;
-    width: 95.3vw;;
+    width: 99.3vw;;
 }
     #intro{
-    background: url(images/everything.jpg) 50% 0 no-repeat fixed;
+    background: url(images/everything.jpg) 50% 0 no-repeat;
     background-size: cover;
     color: white;
     height: 100vh;
     margin: 0;
     padding: 0;
-    width: 95.3vw;
+    width: 99.3vw;
 }
     #about{
-    background: url(images/abstract.png) 50% 0 no-repeat fixed;
-    background-size: cover;
+    background: url(images/abstract.png) 50% 0 no-repeat;
     color: white;
-    height: 150vh;
-   
-    overflow: hidden;
+    height: 220vh;
     margin: 0;
     padding: 0;
-    width: 95.3vw;
+    width: 99.3vw;
+        margin-top: -10.3vh;
 }
       #topbar{
-          width: 95.3vw;
+          width: 99.3vw;
           position: relative;
       }
       body{
-          width: 95vw !important;
+          width: 99vw !important;
       }
     
 }
+    .paypal_btn{
+        padding-left: 7vw;
+        margin-top: 4vh;
+        color: orange;
+    }
+    #topbar button{
+        width: 25vw;
+    }
+    
